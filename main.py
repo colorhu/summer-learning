@@ -13,16 +13,6 @@
 # for i in range(2, 101, 5):
 #     sum3 += i
 
-# class Solution:
-#     def twoSum(self, nums: list[int], target: int) -> list[int]:
-#         for i in range(len(nums)):
-#             for j in range(1, len(nums)):
-#                 if nums[i] + nums[j] == target and i != j:
-#                     return [i, j]
-# a = Solution()
-# nums = [1,3,3,4]
-# target = 6
-# print(a.twoSum(nums, target))
 class Solution:
     def reverse(self, x: int) -> int:
         if x < 0:
